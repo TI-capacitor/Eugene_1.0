@@ -14,8 +14,8 @@ A small two-motor rover built for a mechatronics project: ultrasonic sensing + D
 
 ## Structure
 The files are ordered as follows:
-src/ <-- code
-docs/ <-- wiring diagrams and presentation
+- src/ <-- code
+- docs/ <-- wiring diagrams and presentation
 
 ## Hardware (Bill of Materials)
 > Links are the exact items used in Eugene 1.0 (FYI: Not sponsored).
