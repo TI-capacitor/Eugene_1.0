@@ -17,7 +17,7 @@ The files are ordered as follows:
 - src/ <-- code
 - docs/ <-- wiring diagrams and presentation
 
-## Hardware (Bill of Materials)
+## Hardware Components Used
 > Links are the exact items used in Eugene 1.0 (FYI: Not sponsored).
 - **Arduino Uno:**  
   https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/
