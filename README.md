@@ -1,17 +1,9 @@
 # Eugene 1.0 — Mechatronics Rover (Arduino Uno)
-A small two-motor rover built for a mechatronics project: ultrasonic sensing + DC motor drive + a 3D-printed chassis. Simple, practical, and slightly silly on purpose.
+A small rover built for a mechatronics course; it consists ultrasonic sensing, DC motor driver and a 3D-printed chassis
 
 **Demo video:** https://www.youtube.com/watch?v=5wAjBlTuVfc
 
 ---
-
-## Overview
-**Eugene 1.0** is a beginner-friendly mobile robot platform designed to practice core mechatronics integration:
-- Embedded control on an **Arduino Uno**
-- Distance sensing with an **ultrasonic sensor**
-- Motor control via an **L298N dual H-bridge driver**
-- Assembly using a **3D-printed chassis** design
-
 ## Structure
 The files are ordered as follows:
 - src/ <-- code
