@@ -1,5 +1,5 @@
-# Eugene 1.0 — Mechatronics Rover (Arduino Uno)
-A small rover built for a mechatronics course; it consists ultrasonic sensing, DC motor driver and a 3D-printed chassis
+# Eugene 1.0 NASA prototype rover
+A small rover built for ; it consists ultrasonic sensing, DC motor driver and a 3D-printed chassis
 
 **Demo video:** https://www.youtube.com/watch?v=5wAjBlTuVfc
 
