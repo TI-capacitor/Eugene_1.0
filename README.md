@@ -1,7 +1,7 @@
-# Eugene 0.1.0 - Pre-alpha
+# Eugene v0.1.0 - Pre-alpha
 
 This is the first iteration of this rover consists of ultrasonic sensing, DC motor driver, 2 DC motors and a 3D-printed chassis
-The next iteration is **v0.2.0**, set to release on **May 15, 2026**.
+The next iteration is **v0.2.0**, set to release on **June 15, 2026**.
 
 ### Planned changes(v0.2.0):
 
@@ -23,7 +23,7 @@ The files are ordered as follows:
 - docs/ <-- wiring diagrams and presentation
 
 ## Hardware Components Used
-> Links are the exact items used in Eugene 1.0 (FYI: Not sponsored).
+> Links are the exact items used in Eugene v0.1.0 (FYI: Not sponsored).
 - **Arduino Uno:**  
   https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/
 
