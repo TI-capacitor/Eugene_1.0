@@ -1,7 +1,19 @@
-# Eugene 1.0 NASA prototype rover
-A small rover built for ; it consists ultrasonic sensing, DC motor driver and a 3D-printed chassis
+# Eugene 0.1.0 - Pre-alpha
 
-**Demo video:** https://www.youtube.com/watch?v=5wAjBlTuVfc
+This is the first iteration of this rover consists of ultrasonic sensing, DC motor driver, 2 DC motors and a 3D-printed chassis
+The next iteration is version 0.2.0, set to release on May 15, 2026.
+###Planned changes(v0.2.0):
+
+- [] Elimination of `delay()` in place of `millis()` algorithm
+- [] Better ultrasound sensing
+- [] Addition of Bluetooth module zs-040 to control the rover via `Serial Bluetooth Terminal`
+- [] Implementation of state machine to toggle between ultrasound and BT mode with push button
+- [] Better power management
+
+
+
+
+**Demo video(v0.1.0):** https://www.youtube.com/watch?v=5wAjBlTuVfc
 
 ---
 ## Structure
