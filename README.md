@@ -1,7 +1,8 @@
 # Eugene 0.1.0 - Pre-alpha
 
 This is the first iteration of this rover consists of ultrasonic sensing, DC motor driver, 2 DC motors and a 3D-printed chassis
-The next iteration is version 0.2.0, set to release on May 15, 2026.
+The next iteration is **v0.2.0**, set to release on **May 15, 2026**.
+
 ###Planned changes(v0.2.0):
 
 - Elimination of `delay()` in place of `millis()` algorithm
