@@ -1,7 +1,9 @@
 #include "Movement.h"
 
+//movement class constructor
 Movement::Movement(int In1,int In2,int In3,int In4,int EnA,int EnB) {}
 
+//method to initialize pins in one instance
 void Movement::begin(){
   pinMode(In1,OUTPUT);
   pinMode(In2,OUTPUT);
@@ -11,6 +13,8 @@ void Movement::begin(){
   pinMode(EnB,OUTPUT);
 
 }
+
+//stops all motor movement
 void Movement::stopMotors() {
   digitalWrite(In1,LOW);
   digitalWrite(In2,LOW);
@@ -20,7 +24,7 @@ void Movement::stopMotors() {
   analogWrite(EnB,0);
 }
 
-
+//Moves forward
 void Movement::forward() {
   digitalWrite(In1,HIGH);
   digitalWrite(In2,LOW);
@@ -29,7 +33,8 @@ void Movement::forward() {
   analogWrite(EnA,255);
   analogWrite(EnB,255);
 }
-  
+
+//moves in reverse
 void Movement::backward() {
   digitalWrite(In1,LOW);
   digitalWrite(In2,HIGH);
@@ -39,12 +44,24 @@ void Movement::backward() {
   analogWrite(EnB,255);
 }
 
+//pivots to the right
 void Movement::pivotRight() {
- //in progress
+  digitalWrite(In1,HIGH);
+  digitalWrite(In2,LOW);
+  digitalWrite(In3,HIGH);
+  digitalWrite(In4,LOW);
+  analogWrite(EnA,255);
+  analogWrite(EnB,255);
 }
- 
+
+//pivots left
 void Movement::pivotLeft() {
-//in progress
+  digitalWrite(In1,LOW);
+  digitalWrite(In2,HIGH);
+  digitalWrite(In3,LOW);
+  digitalWrite(In4,HIGH);
+  analogWrite(EnA,255);
+  analogWrite(EnB,255);
 }
   
 

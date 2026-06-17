@@ -9,10 +9,10 @@ class Movement{
     int In1, In2, In3, In4, EnA, EnB;
    
   public:
-    //constructor
+    //constructor prototype
     Movement(int,int,int,int,int,int);
 
-    //to be used in pinMode function
+    //to be used in pinMode() method
     void begin();
 
     //stops all motors and sets pwm to 0
@@ -22,7 +22,7 @@ class Movement{
     void forward();
     void backward();
 
-    //sharp 90 degree turns (both wheels pivot)
+    //right and left pivots
     void pivotRight();
     void pivotLeft();
 };

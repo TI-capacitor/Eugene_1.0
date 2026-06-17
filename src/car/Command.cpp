@@ -1,6 +1,7 @@
 #include "Command.h"
 
-void Command::readCommand() {
+//reads command and builds string, saves it on private variable
+void Command::setCommand() {
   while (Serial.available()) 
   {
     char c = Serial.read();
@@ -11,6 +12,7 @@ void Command::readCommand() {
     }
 }
 
+//parsing of commands, includes typecasting to lowercase
 void Command::parseCommand() {
   if (!stringComplete) return;
   inputString.trim();
@@ -50,6 +52,7 @@ void Command::parseCommand() {
   stringComplete = false;
 }
 
+//list of possible commands
 void Command::listOfCommands(){
   Serial.println(" _________________________________________");
   Serial.println("|        LIST OF POSSIBLE COMMANDS        |");

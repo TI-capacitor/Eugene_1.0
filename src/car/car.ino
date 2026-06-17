@@ -1,14 +1,19 @@
 #include "Movement.h"
 #include "Command.h"
 
+//List of states
 enum ROVER_STATE{BT_CONTROL=1,SCAN,AUTONOMOUS};
+
+
 ROVER_STATE currentState = BT_CONTROL;
 
+
+//variables to manage concurrency timing
 unsigned long commandControl = 100;
 unsigned long prevControlTime = 0;
 unsigned long current_Time = 0;
 
-//pins
+//pin variables
 const int In1  = 7;
 const int In2  = 8;
 const int In3 = 9;
@@ -23,6 +28,7 @@ Command cmd;
 Movement rover(In1,In2,In3,In4,EnA,EnB);
 
 void setup() {
+
   //initialize pins to be used by the rover
   rover.begin();
   Serial.begin(9600);
@@ -32,10 +38,10 @@ void loop() {
   current_Time = millis();
 
   //handle command input via serial communication channel
-  cmd.readCommand();
+  cmd.setCommand();
   cmd.parseCommand();
 
-
+  //creation of state machine for change of states
   if(current_Time - prevControlTime >= commandControl)
   {
     prevControlTime = current_Time;
