@@ -1,17 +1,14 @@
 # Eugene v0.1.0 - Pre-alpha
 
-This is the first iteration of this rover consists of ultrasonic sensing, DC motor driver, 2 DC motors and a 3D-printed chassis
-The next iteration is **v0.2.0**, set to release on **June 15, 2026**.
-
 ### Planned changes(v0.2.0-pre-alpha):
 
 - Elimination of `delay()` in place of `millis()` algorithm
-- Elimination of LCD module to focus on movement development
-- Better ultrasound sensing with timer interrupts
+- Elimination of LCD module and ultrasound sensing to focus on movement development
 - Addition of Bluetooth module zs-040 to control the rover via `Serial Bluetooth Terminal`
 - Implementation of hardware interrupt for state machine to toggle between ultrasound and BT mode with push button
 - Addition of classes for abstraction and cleaner main script
 - Better power management using 3.7v 18650 batteries in 2S configuration
+**Release date: 6/17/2026 00:00**
 
 
 
