@@ -9,7 +9,7 @@
 - Better power management using 3.7v 18650 batteries in 2S configuration
 **OUT NOW!!!**
 
-##Video
+## Video
 - The current version will be documented in my youtube channel
 - Video will show main features and troubleshooting process
 - The video is set to release on autumn of 2026
