@@ -1,14 +1,18 @@
-# Eugene v0.1.0 - Pre-alpha
+# Eugene v0.2.0 - Pre-alpha
 
-### Planned changes(v0.2.0-pre-alpha):
+### CHANGELOG V0.2.0:
 
-- Elimination of `delay()` in place of `millis()` algorithm
-- Elimination of LCD module and ultrasound sensing to focus on movement development
+- Elimination of `delay()` in `loop()`
+- Elimination of LCD and ultrasound code to focus on movement development
 - Addition of Bluetooth module zs-040 to control the rover via `Serial Bluetooth Terminal`
-- Implementation of hardware interrupt for state machine to toggle between ultrasound and BT mode with push button
 - Addition of classes for abstraction and cleaner main script
 - Better power management using 3.7v 18650 batteries in 2S configuration
-**Release date: 6/17/2026 00:00**
+**OUT NOW!!!**
+
+##Video
+- The current version will be documented in my youtube channel
+- Video will show main features and troubleshooting process
+- The video is set to release on autumn of 2026
 
 
 
